@@ -1,0 +1,18 @@
+.content {
+  font-size: 1.5rem;
+  color: #3a3a3a;
+  width: 90%;
+  max-width: 40em;
+  margin: auto;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .content {
+    height: 45vh;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 11rem;
+  }
+}
