@@ -1,4 +1,4 @@
-const DUMMY_EVENTS = [
+export const DUMMY_EVENTS = [
   {
     id: 'e1',
     title: 'Programming for everyone',
@@ -35,11 +35,11 @@ export const getFeaturedEvents = () => {
   return DUMMY_EVENTS.filter((event) => event.isFeatured);
 }
 
-export function getAllEvents() {
+export const getAllEvents = () => {
   return DUMMY_EVENTS;
 }
 
-export function getFilteredEvents(dateFilter) {
+export const getFilteredEvents = (dateFilter) => {
   const { year, month } = dateFilter;
 
   let filteredEvents = DUMMY_EVENTS.filter((event) => {

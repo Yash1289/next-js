@@ -44,7 +44,7 @@
 @media (min-width: 768px) {
   .logistics {
     position: absolute;
-    top : 31%;
+    top : 240px;
     left: 50%;
     transform: translate(-50%);
     padding: 2rem;
